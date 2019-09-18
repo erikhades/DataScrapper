@@ -1,0 +1,1 @@
+<?php $SCRAPERAPIKEY="2e37dba01dcc1ce73d6166795ccb9ada";
