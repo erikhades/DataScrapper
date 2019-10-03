@@ -1,7 +1,7 @@
 <?php
 require_once 'apikeys.php';
 $search = trim(htmlspecialchars($_REQUEST['search']));
-if(!$search) $search = "San Francisco pics";
+if(!$search) $search = "Anime Pics";
 $url = ("https://twitter.com/search?f=tweets&vertical=default&q=".urlencode($search)."&src=typd");
 $proxiedUrl = "http://api.scraperapi.com?api_key=$SCRAPERAPIKEY&url=".$url;
 $data = file_get_contents($proxiedUrl);
